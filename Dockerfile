@@ -1,4 +1,4 @@
-FROM		ubuntu:lates
+FROM		ubuntu:14.04
 MAINTAINER	zaf3hrhke <zaf3hrhke@crpolytechnic.in>
 
 RUN		apt-get update -qq
